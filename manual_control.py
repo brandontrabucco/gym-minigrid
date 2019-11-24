@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from __future__ import division, print_function
+from lplp.envs.mine_and_smelt_env import MineAndSmeltEnv
 
 import sys
 import numpy
@@ -23,6 +24,7 @@ def main():
 
     # Load the gym environment
     env = gym.make(options.env_name)
+    env = MineAndSmeltEnv()
 
     def resetEnv():
         env.reset()
