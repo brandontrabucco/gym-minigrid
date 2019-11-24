@@ -55,11 +55,12 @@ OBJECT_TO_IDX = {
     #####################
 
     'iron ore'      : 11,
-    'coal ore'      : 12,
-    'coal'          : 13,
-    'iron ingot'    : 14,
-    'pick axe'      : 15,
-    'furnace'       : 16,
+    'mined iron ore': 12,
+    'coal ore'      : 13,
+    'coal'          : 14,
+    'iron ingot'    : 15,
+    'pick axe'      : 16,
+    'furnace'       : 17,
 }
 
 IDX_TO_OBJECT = dict(zip(OBJECT_TO_IDX.values(), OBJECT_TO_IDX.keys()))
